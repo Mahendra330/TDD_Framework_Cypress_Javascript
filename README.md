@@ -34,14 +34,14 @@ Description of Project Framework:
 
 	1. Automation Test Script Login FeatureTest:
 		a. Open a Firefox/Chrome browser.
-		b. Navigate to https://release.test.bookingkit.net
+		b. Navigate to website
 		c. Pass Test with Valid Credential.
 		d. Failed Test with Invalid Credential.
 		
 
 	2.Automation Test Script for Assigned Scenario:
 		a. Open a Firefox/Chrome browser.
-		b. Navigate to https://release.test.bookingkit.net
+		b. Navigate to website
 		c. Enter Username and Password (Username: XXXXXXX,Password: XXXXXXXX)
 		d. After successful login, click on “QA Assessment Account” in the top right corner of the page and select “Edit profile” from the drop down
 		e. Set user to different language
