@@ -1,0 +1,29 @@
+{
+  "name": "bookknight",
+  "version": "1.0.0",
+  "description": "Automation Task of Booknight",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:electron": "cypress run --browser electron",
+    "cy:dashboard-run": "cypress run --record --key c19ac800-15ed-4142-a5a1-00358d62c603",
+    "cy:MochawesomeReortTest-run": "cypress run --record --key c19ac800-15ed-4142-a5a1-00358d62c603 --reporter mochawesome",
+    "Start-jenkins-service": "java -jar jenkins.war -httpPort=8080 --enable-future-java"
+  },
+  "keywords": [
+    "Cypress",
+    "TDD",
+    "Docker",
+    "Jenkins"
+  ],
+  "author": "Mahendra Kumar Barik",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.9.0",
+    "mocha": "^8.0.1",
+    "mochawesome": "^6.1.1"
+  }
+}
