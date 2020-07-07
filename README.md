@@ -2,7 +2,7 @@
 
 # QA_Automation: Automate the assigned test scenario:
 	1. Open a Firefox/Chrome browser (you can use the selenium native Firefox/Chrome driver)
-	2. Navigate to https://release.test.bookingkit.net
+	2. Navigate to Website
 	3. Enter Username and Password (Username: XXXXXXX,Password: XXXXXXXX)
 	4. After successful login, click on “QA Assessment Account” in the top right corner of the page and select “Edit profile” from the drop down
 	5. Set user to different language
