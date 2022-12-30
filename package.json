@@ -23,7 +23,7 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^4.9.0",
-    "mocha": "^8.0.1",
+    "mocha": "^8.4.0",
     "mochawesome": "^6.1.1"
   }
 }
